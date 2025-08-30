@@ -1,0 +1,17 @@
+
+nav{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    background-color: brown;
+    list-style: none;
+    
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+nav ul li{
+    margin: 10px;
+}
