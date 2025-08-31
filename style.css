@@ -29,8 +29,9 @@ nav ul li{
 }
 .home{
     background-color: darkgrey;
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: medium;
+    font-size: 15px;
 }
 .about{
     background-color: gray;
@@ -41,6 +42,7 @@ nav ul li{
 }
 .projects{
     background-color: gray;
+    
 }
 .contact{
     background-color: darkgrey;
@@ -51,26 +53,6 @@ section{
    
     border-radius: 20px;
 }
-#main{
-    display: grid;
-    height: 100vh;
-    grid-template-areas: 
-    ".home .about"
-    ".skills .projects";
-    grid-gap: 10px;
-    margin: 10px;
+#portfolio img{
+    width: 60%;
 }
-.home{
-    grid-area: home;
-
-}
-.about{
-    grid-area: about;
-}
-.skills{
-    grid-area: skills;
-}
-.projects{
-    grid-area: projects;
-}
-
