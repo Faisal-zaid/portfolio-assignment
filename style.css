@@ -33,6 +33,10 @@ nav ul li{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 15px;
 }
+
+.home img{
+    border-radius: 50%;
+}
 .about{
     background-color: gray;
 }
